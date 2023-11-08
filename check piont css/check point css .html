@@ -1,42 +1,49 @@
 <!DOCTYPE html>
 <html lang="en">
-
 <head>
-  <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>My Creative Project</title>
-  <!-- Link to Roboto font -->
-  <link rel="stylesheet" href="style.css">
-  <!-- Link to our custom styles.css -->
-  <link rel="stylesheet" href="styles.css">
+  <script src="./css.js"></script>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-T3c6CoIi6uLrA9TneNEoa7RxnatzjcDSCmG1MXxSR1GAsXEV/Dwwykc2MPK8M2HN" crossorigin="anonymous">
+    <script src="./js/main.js"></script>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
 </head>
+<body class="container">
 
-<body>
-  <header>
-    <h1>Welcome to My portfolio </h1>
-    <h3> Mohamed Amine Naceur</h3>
-  </header>
-
-  <nav>
-    <ul class="nav">
-      <li><a href="#home">Home</a></li>
-      <li><a href="#about">About</a></li>
-      <li><a href="#services">Services</a></li>
-      <li><a href="#contact">Contact</a></li>
-    </ul>
-  </nav>
-
-  <div class="container">
-    <section>
-      <h2>About Us</h2>
-      <p>This is a creative project showcasing the use of custom styles.</p>
-    </section>
-
-    <section>
-      <h2>Our Services</h2>
-      <p>We offer a variety of creative services to meet your needs.</p>
-    </section>
-  </div>
+    <div class="row">
+        <div class="col-4">
+<form>
+    <div class="mb-3">
+        <label for="exampleInputName" class="form-label">Name</label>
+        <input type="text" class="form-control" id="exampleInputName" placeholder="enter your name">
+    </div>
+    <div class="mb-3">
+        <label for="exampleInputPassword1" class="form-label">Password</label>
+        <input type="password" class="form-control" id="exampleInputPassword1">
+    </div>
+    <div class="mb-3">
+        <label for="exampleInputPhone" class="form-label">phone</label>
+        <input type="tel" class="form-control" id="exampleInputPhone" placeholder="+21612345678">
+    </div>
+   
+    <button type="submit" class="btn btn-primary" onclick="control()">Submit</button>
+</form>
+</div>
+</div>
 </body>
-
 </html>
+<!-- <head>
+    <script src="./js/main.js"></script>
+
+</head>
+<body>
+    <form name="loginForm" onsubmit="return validateForm(event) ">
+        <label for="Name">Name:</label>
+        <input type="text" name="name" placeholder="example@example.com" />
+        <label for="password">Password:</label>
+        <input type="password" name="password" placeholder="***" />
+        <button type="submit">Login</button>
+        <button type="reset">cancel</button>
+    </form>
+</body> -->
